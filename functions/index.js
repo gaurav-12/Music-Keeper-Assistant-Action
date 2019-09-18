@@ -10,7 +10,7 @@ const {
 const functions = require('firebase-functions');
 const app = dialogflow({debug: true});
 
-const API_KEY = 'AIzaSyDofJ3IG-f3y3UkwYM3Xl0yH5Af8pA3YyE';
+const API_KEY = '';
 
 app.intent('GetPopular', (conv, {artist}) => {
     console.log(artist);
